@@ -28,9 +28,9 @@ services:
       - "5053:5053/udp"
 
   # https://github.com/balenablocks/fbcp
-  fbcp:
-    image: balenablocks/fbcp:1.0.0
-    privileged: true
+  # fbcp:
+  #   image: balenablocks/fbcp:1.0.0
+  #   privileged: true
 
   # prevent plymouth from blocking fbcp
   # https://github.com/klutchell/balena-pihole/issues/25
